@@ -1,0 +1,65 @@
+/* Start Variables */
+:root {
+  --main-color: #2196f3;
+  --main-color-section: #f6f6f6;
+  --main-color-text: #333;
+  --main-padding-block: 60px;
+  --main-transition-duration: 0.3s;
+}
+/* End Variables */
+
+/* Start Global Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Work Sans", serif;
+}
+a,
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+input:focus {
+  outline: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  margin-inline: auto;
+  padding-inline: 15px;
+  @media only screen and (max-width: 767px) {
+    width: 100%;
+  }
+  @media only screen and (min-width: 768px) {
+    width: 750px;
+  }
+  @media only screen and (min-width: 992px) {
+    width: 970px;
+  }
+  @media only screen and (min-width: 1200px) {
+    width: 1170px;
+  }
+}
+
+/* End Global Rules */
